@@ -9,11 +9,11 @@ La vista deve essere composta da un campo di testo e da una lista di post.
 Il campo di testo deve essere posizionato in alto e deve essere possibile inserire del testo al suo interno, al cambio del testo deve essere effettuata una ricerca dei post che contengono il testo inserito nel campo di testo.
 
 L'api per la lista è presente al seguente indirizzo: https://dummyjson.com/products
-L'api per la ricerca è presente al seguente indirizzo: https://dummyjson.com/products?search=<riceca>
+L'api per la ricerca è presente al seguente indirizzo: https://dummyjson.com/products/search?q=RICERCA
 
 Ogni elemento della lista deve mostrare:
-- immagine prodotto
-- title
-- description
+- immagine prodotto (`<Image />`)
+- title (`<Text />`)
+- description (`<Text />`)
 
 Per sviluppare la lista puoi usare <FlatList />.
