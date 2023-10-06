@@ -16,4 +16,4 @@ Ogni elemento della lista deve mostrare:
 - title (`<Text />`)
 - description (`<Text />`)
 
-Per sviluppare la lista puoi usare <FlatList />.
+Per sviluppare la lista puoi usare [`<FlatList />`](https://reactnative.dev/docs/flatlist).
